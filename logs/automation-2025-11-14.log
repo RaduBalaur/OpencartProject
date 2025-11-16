@@ -1,0 +1,57 @@
+15:41:50.195 [main] INFO  TestCases.TC_001_AccountRegistrationTest - Starting verify_account_registration
+15:41:50.385 [main] INFO  TestCases.TC_001_AccountRegistrationTest - Clicked on MyAccount
+15:41:51.523 [main] INFO  TestCases.TC_001_AccountRegistrationTest - Clicked on Register
+15:41:51.529 [main] INFO  TestCases.TC_001_AccountRegistrationTest - Providing customer details
+15:41:58.170 [main] INFO  TestCases.TC_002_LoginTest - Starting Login Test
+15:42:00.629 [main] INFO  TestCases.TC_002_LoginTest - Finished Login Test
+15:42:05.891 [main] INFO  TestCases.TC_003_LoginTestDDT - Starting TC_003_LoginTestDDT
+15:42:08.933 [main] INFO  TestCases.TC_003_LoginTestDDT - Finished TC_003_LoginTestDDT
+15:42:08.934 [main] INFO  TestCases.TC_003_LoginTestDDT - Starting TC_003_LoginTestDDT
+15:42:11.755 [main] INFO  TestCases.TC_003_LoginTestDDT - Finished TC_003_LoginTestDDT
+15:42:11.756 [main] INFO  TestCases.TC_003_LoginTestDDT - Starting TC_003_LoginTestDDT
+15:42:14.454 [main] INFO  TestCases.TC_003_LoginTestDDT - Finished TC_003_LoginTestDDT
+15:42:14.456 [main] INFO  TestCases.TC_003_LoginTestDDT - Starting TC_003_LoginTestDDT
+15:42:26.224 [main] INFO  TestCases.TC_003_LoginTestDDT - Finished TC_003_LoginTestDDT
+15:42:26.226 [main] INFO  TestCases.TC_003_LoginTestDDT - Starting TC_003_LoginTestDDT
+15:42:29.282 [main] INFO  TestCases.TC_003_LoginTestDDT - Finished TC_003_LoginTestDDT
+15:42:29.283 [main] INFO  TestCases.TC_003_LoginTestDDT - Starting TC_003_LoginTestDDT
+15:42:41.012 [main] INFO  TestCases.TC_003_LoginTestDDT - Finished TC_003_LoginTestDDT
+13:57:49.669 [main] INFO  TestCases.TC_001_AccountRegistrationTest - Starting verify_account_registration
+13:57:49.939 [main] INFO  TestCases.TC_001_AccountRegistrationTest - Clicked on MyAccount
+13:57:52.012 [main] INFO  TestCases.TC_001_AccountRegistrationTest - Clicked on Register
+13:57:52.015 [main] INFO  TestCases.TC_001_AccountRegistrationTest - Providing customer details
+13:57:59.521 [main] INFO  TestCases.TC_002_LoginTest - Starting Login Test
+13:58:02.305 [main] INFO  TestCases.TC_002_LoginTest - Finished Login Test
+13:58:08.751 [main] INFO  TestCases.TC_003_LoginTestDDT - Starting TC_003_LoginTestDDT
+13:58:12.220 [main] INFO  TestCases.TC_003_LoginTestDDT - Finished TC_003_LoginTestDDT
+13:58:12.222 [main] INFO  TestCases.TC_003_LoginTestDDT - Starting TC_003_LoginTestDDT
+13:58:14.907 [main] INFO  TestCases.TC_003_LoginTestDDT - Finished TC_003_LoginTestDDT
+13:58:14.910 [main] INFO  TestCases.TC_003_LoginTestDDT - Starting TC_003_LoginTestDDT
+13:58:17.825 [main] INFO  TestCases.TC_003_LoginTestDDT - Finished TC_003_LoginTestDDT
+13:58:17.827 [main] INFO  TestCases.TC_003_LoginTestDDT - Starting TC_003_LoginTestDDT
+13:58:28.761 [main] INFO  TestCases.TC_003_LoginTestDDT - Finished TC_003_LoginTestDDT
+13:58:28.763 [main] INFO  TestCases.TC_003_LoginTestDDT - Starting TC_003_LoginTestDDT
+13:58:31.805 [main] INFO  TestCases.TC_003_LoginTestDDT - Finished TC_003_LoginTestDDT
+13:58:31.807 [main] INFO  TestCases.TC_003_LoginTestDDT - Starting TC_003_LoginTestDDT
+13:58:42.765 [main] INFO  TestCases.TC_003_LoginTestDDT - Finished TC_003_LoginTestDDT
+14:02:37.515 [main] INFO  TestCases.TC_001_AccountRegistrationTest - Starting verify_account_registration
+14:02:37.663 [main] INFO  TestCases.TC_001_AccountRegistrationTest - Clicked on MyAccount
+14:02:38.605 [main] INFO  TestCases.TC_001_AccountRegistrationTest - Clicked on Register
+14:02:38.610 [main] INFO  TestCases.TC_001_AccountRegistrationTest - Providing customer details
+14:02:46.335 [main] INFO  TestCases.TC_002_LoginTest - Starting Login Test
+14:02:49.759 [main] INFO  TestCases.TC_002_LoginTest - Finished Login Test
+14:02:56.670 [main] INFO  TestCases.TC_003_LoginTestDDT - Starting TC_003_LoginTestDDT
+14:02:59.890 [main] INFO  TestCases.TC_003_LoginTestDDT - Finished TC_003_LoginTestDDT
+14:02:59.892 [main] INFO  TestCases.TC_003_LoginTestDDT - Starting TC_003_LoginTestDDT
+14:03:03.354 [main] INFO  TestCases.TC_003_LoginTestDDT - Finished TC_003_LoginTestDDT
+14:03:03.358 [main] INFO  TestCases.TC_003_LoginTestDDT - Starting TC_003_LoginTestDDT
+14:03:06.339 [main] INFO  TestCases.TC_003_LoginTestDDT - Finished TC_003_LoginTestDDT
+14:03:06.341 [main] INFO  TestCases.TC_003_LoginTestDDT - Starting TC_003_LoginTestDDT
+14:03:17.983 [main] INFO  TestCases.TC_003_LoginTestDDT - Finished TC_003_LoginTestDDT
+14:03:17.984 [main] INFO  TestCases.TC_003_LoginTestDDT - Starting TC_003_LoginTestDDT
+14:03:20.525 [main] INFO  TestCases.TC_003_LoginTestDDT - Finished TC_003_LoginTestDDT
+14:03:20.527 [main] INFO  TestCases.TC_003_LoginTestDDT - Starting TC_003_LoginTestDDT
+14:03:32.178 [main] INFO  TestCases.TC_003_LoginTestDDT - Finished TC_003_LoginTestDDT
+14:10:42.057 [main] INFO  TestCases.TC_001_AccountRegistrationTest - Starting verify_account_registration
+14:10:42.091 [main] ERROR TestCases.TC_001_AccountRegistrationTest - Test failed
+14:12:36.915 [main] INFO  TestCases.TC_001_AccountRegistrationTest - Starting verify_account_registration

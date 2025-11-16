@@ -1,0 +1,27 @@
+package Utilities;
+
+import org.testng.annotations.DataProvider;
+
+import java.io.IOException;
+
+public class DataProviders {
+    @DataProvider(name="LoginData")
+    public String[][] GetLoginData() throws IOException {
+
+        String path= ".\\TestData\\Opencart_LoginData.xlsx";
+        ExcelUtilities xlutil= new ExcelUtilities(path);
+        int totalrows= xlutil.getRowCount("Sheet1");
+        int totalcols= xlutil.getCellCount("Sheet1",1);
+
+        String logindata [][]= new String[totalrows][totalcols];
+        for (int i=1; i<=totalrows;i++)
+        {
+            for (int j=0;j<totalcols;j++)
+            {
+                logindata[i-1][j]=xlutil.getCellData("Sheet1",i,j);
+            }
+        }
+        return logindata;
+
+    }
+}
