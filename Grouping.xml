@@ -16,9 +16,9 @@
         <parameter name="os" value="Windows"/>
         <parameter name="browser" value="chrome"/>
         <classes>
-            <class name="TestCases.TC_001_AccountRegistrationTest"/>
-            <class name="TestCases.TC_002_LoginTest"/>
-            <class name="TestCases.TC_003_LoginTestDDT"/>
+            <class name="TestCases.AccountRegistrationTest"/>
+            <class name="TestCases.LoginTest"/>
+            <class name="TestCases.LoginTestDDT"/>
         </classes>
 
     </test>

@@ -3,11 +3,6 @@ package Utilities;
 import java.awt.Desktop;
 import java.io.File;
 import java.io.IOException;
-//import java.net.URL;
-import java.net.URL;
-
-//Extent report 5.x...//version
-
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
@@ -33,10 +28,7 @@ public class ExtentReportManager implements ITestListener {
 
     public void onStart(ITestContext testContext) {
 
-		/*SimpleDateFormat df=new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss");
-		Date dt=new Date();
-		String currentdatetimestamp=df.format(dt);
-		*/
+
 
         String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());// time stamp
         repName = "Test-Report-" + timeStamp + ".html";
@@ -69,7 +61,7 @@ public class ExtentReportManager implements ITestListener {
     public void onTestSuccess(ITestResult result) {
 
         test = extent.createTest(result.getTestClass().getName());
-        test.assignCategory(result.getMethod().getGroups()); // to display groups in report
+        test.assignCategory(result.getMethod().getGroups());
         test.log(Status.PASS,result.getName()+" got successfully executed");
 
     }
@@ -110,29 +102,6 @@ public class ExtentReportManager implements ITestListener {
             e.printStackTrace();
         }
 
-
-		/*  try {
-			  URL url = new  URL("file:///"+System.getProperty("user.dir")+"\\reports\\"+repName);
-
-		  // Create the email message
-		  ImageHtmlEmail email = new ImageHtmlEmail();
-		  email.setDataSourceResolver(new DataSourceUrlResolver(url));
-		  email.setHostName("smtp.googlemail.com");
-		  email.setSmtpPort(465);
-		  email.setAuthenticator(new DefaultAuthenticator("pavanoltraining@gmail.com","password"));
-		  email.setSSLOnConnect(true);
-		  email.setFrom("pavanoltraining@gmail.com"); //Sender
-		  email.setSubject("Test Results");
-		  email.setMsg("Please find Attached Report....");
-		  email.addTo("pavankumar.busyqa@gmail.com"); //Receiver
-		  email.attach(url, "extent report", "please check report...");
-		  email.send(); // send the email
-		  }
-		  catch(Exception e)
-		  {
-			  e.printStackTrace();
-			  }
-		 */
 
     }
 

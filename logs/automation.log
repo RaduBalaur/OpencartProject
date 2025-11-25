@@ -1,14 +1,20 @@
-17:15:56.384 [main] INFO  TestCases.TC_002_LoginTest - Starting Login Test
-17:15:58.569 [main] INFO  TestCases.TC_002_LoginTest - Finished Login Test
-17:16:04.207 [main] INFO  TestCases.TC_003_LoginTestDDT - Starting TC_003_LoginTestDDT
-17:16:07.760 [main] INFO  TestCases.TC_003_LoginTestDDT - Finished TC_003_LoginTestDDT
-17:16:07.761 [main] INFO  TestCases.TC_003_LoginTestDDT - Starting TC_003_LoginTestDDT
-17:16:11.257 [main] INFO  TestCases.TC_003_LoginTestDDT - Finished TC_003_LoginTestDDT
-17:16:11.261 [main] INFO  TestCases.TC_003_LoginTestDDT - Starting TC_003_LoginTestDDT
-17:16:15.182 [main] INFO  TestCases.TC_003_LoginTestDDT - Finished TC_003_LoginTestDDT
-17:16:15.186 [main] INFO  TestCases.TC_003_LoginTestDDT - Starting TC_003_LoginTestDDT
-17:16:27.316 [main] INFO  TestCases.TC_003_LoginTestDDT - Finished TC_003_LoginTestDDT
-17:16:27.321 [main] INFO  TestCases.TC_003_LoginTestDDT - Starting TC_003_LoginTestDDT
-17:16:30.463 [main] INFO  TestCases.TC_003_LoginTestDDT - Finished TC_003_LoginTestDDT
-17:16:30.465 [main] INFO  TestCases.TC_003_LoginTestDDT - Starting TC_003_LoginTestDDT
-17:16:41.480 [main] INFO  TestCases.TC_003_LoginTestDDT - Finished TC_003_LoginTestDDT
+11:13:18.460 [main] INFO  TestCases.ValidateSearch - Entered Password
+11:13:19.938 [main] INFO  TestCases.ValidateSearch - Logged In
+11:13:20.120 [main] INFO  TestCases.ValidateSearch - Entered Product Name
+11:13:21.503 [main] INFO  TestCases.ValidateSearch - Clicked On Search
+11:13:21.576 [main] INFO  TestCases.ValidateSearch - Validating If Product Is Displayed
+11:13:21.577 [main] INFO  TestCases.ValidateSearch - Finished Validate Search Test
+11:13:27.715 [main] INFO  TestCases.AddToCartTest - Started Add To Cart Test
+11:13:27.850 [main] INFO  TestCases.AddToCartTest - Clicked on my account
+11:13:28.461 [main] INFO  TestCases.AddToCartTest - Clicked Login
+11:13:28.689 [main] INFO  TestCases.AddToCartTest - Entered login
+11:13:28.823 [main] INFO  TestCases.AddToCartTest - Entered Password
+11:13:30.285 [main] INFO  TestCases.AddToCartTest - Logged In
+11:13:30.449 [main] INFO  TestCases.AddToCartTest - Entered Product Name
+11:13:31.388 [main] INFO  TestCases.AddToCartTest - Clicked On Search
+11:13:55.613 [main] INFO  TestCases.AddToCartTest - Clicked On Product
+11:13:55.750 [main] INFO  TestCases.AddToCartTest - Clicked On Add To Cart
+11:13:56.192 [main] INFO  TestCases.AddToCartTest - Validating If Success Message Is Displayed
+11:13:57.225 [main] INFO  TestCases.AddToCartTest - Clicked On Shopping Cart
+11:13:57.258 [main] INFO  TestCases.AddToCartTest - Validating If Product Is Displayed In Shopping Cart
+11:13:57.259 [main] INFO  TestCases.AddToCartTest - Finished Add To Cart Test

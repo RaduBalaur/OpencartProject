@@ -15,6 +15,11 @@ public class MyAccountPage extends BasePage {
     WebElement msgMyAccount;
     @FindBy(xpath="//a[@class='list-group-item'][normalize-space()='Logout']")
     WebElement btn_logout;
+    @FindBy(xpath="//input[@placeholder='Search']")
+    WebElement search_input;
+    @FindBy(xpath="//button[@class='btn btn-default btn-lg']")
+    WebElement search_btn;
+
 
     public boolean DoesMyAccountExist()
     {
@@ -30,5 +35,13 @@ public class MyAccountPage extends BasePage {
     public void ClickLogout()
     {
         btn_logout.click();
+    }
+    public void SearchForProduct(String product)
+    {
+        search_input.sendKeys(product);
+    }
+    public void ClickOnSearch()
+    {
+        search_btn.click();
     }
 }

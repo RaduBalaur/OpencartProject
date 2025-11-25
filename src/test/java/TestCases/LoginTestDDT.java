@@ -8,7 +8,7 @@ import pageObjects.HomePage;
 import pageObjects.LoginPage;
 import pageObjects.MyAccountPage;
 
-public class TC_003_LoginTestDDT extends BaseClass {
+public class LoginTestDDT extends BaseClass {
 
     @Test(dataProvider = "LoginData",dataProviderClass = DataProviders.class,groups = "DataDriven")
     public void Verify_LoginDDT(String email, String pass, String exp)
@@ -17,15 +17,21 @@ public class TC_003_LoginTestDDT extends BaseClass {
         try{
         HomePage hp = new HomePage(driver);
         hp.clickAccount();
+        logger.info("Clicked On My Account");
         hp.ClickLogin();
+        logger.info("Clicked On Login");
 
         LoginPage lp = new LoginPage(driver);
         lp.EnterEmail(email);
+        logger.info("Entered Email");
         lp.EnterPassword(pass);
+        logger.info("Entered Password");
         lp.clickLogin();
+        logger.info("Logged In");
 
         MyAccountPage macc = new MyAccountPage(driver);
         boolean targetpage = macc.DoesMyAccountExist();
+        logger.info("Validating Login Credentials Based On The Login Data From Excel");
 
         if (exp.equalsIgnoreCase("Valid"))
         {

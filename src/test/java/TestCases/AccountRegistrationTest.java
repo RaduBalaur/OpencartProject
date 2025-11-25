@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 import pageObjects.HomePage;
 import pageObjects.RegistrationPage;
 
-public class TC_001_AccountRegistrationTest extends BaseClass {
+public class AccountRegistrationTest extends BaseClass {
 
     @Test(groups = {"Regression","Master"})
     public void verify_account_registration() throws InterruptedException {
@@ -37,9 +37,9 @@ public class TC_001_AccountRegistrationTest extends BaseClass {
             String comfmsg = repage.GetComfirmationMessage();
             Assert.assertEquals(comfmsg, "Your Account Has Been Created!");
         } catch (Exception e) {
-            logger.error("Test failed");
-            logger.debug("Debug logs");
+
             Assert.fail();
         }
+        logger.info("Finished Account Registration Test");
     }
 }
