@@ -1,0 +1,20 @@
+13:32:53.870 [main] INFO  TestCases.ValidateSearch - Entered Password
+13:32:53.993 [main] INFO  TestCases.ValidateSearch - Logged In
+13:32:55.464 [main] INFO  TestCases.ValidateSearch - Entered Product Name
+13:32:56.231 [main] INFO  TestCases.ValidateSearch - Clicked On Search
+13:32:56.273 [main] INFO  TestCases.ValidateSearch - Validating If Product Is Displayed
+13:32:56.274 [main] INFO  TestCases.ValidateSearch - Finished Validate Search Test
+13:33:00.322 [main] INFO  TestCases.AddToCartTest - Started Add To Cart Test
+13:33:00.439 [main] INFO  TestCases.AddToCartTest - Clicked on my account
+13:33:00.956 [main] INFO  TestCases.AddToCartTest - Clicked Login
+13:33:01.147 [main] INFO  TestCases.AddToCartTest - Entered login
+13:33:01.264 [main] INFO  TestCases.AddToCartTest - Entered Password
+13:33:01.403 [main] INFO  TestCases.AddToCartTest - Logged In
+13:33:02.859 [main] INFO  TestCases.AddToCartTest - Entered Product Name
+13:33:03.607 [main] INFO  TestCases.AddToCartTest - Clicked On Search
+13:33:04.696 [main] INFO  TestCases.AddToCartTest - Clicked On Product
+13:33:04.800 [main] INFO  TestCases.AddToCartTest - Clicked On Add To Cart
+13:33:05.167 [main] INFO  TestCases.AddToCartTest - Validating If Success Message Is Displayed
+13:33:05.678 [main] INFO  TestCases.AddToCartTest - Clicked On Shopping Cart
+13:33:05.722 [main] INFO  TestCases.AddToCartTest - Validating If Product Is Displayed In Shopping Cart
+13:33:05.722 [main] INFO  TestCases.AddToCartTest - Finished Add To Cart Test

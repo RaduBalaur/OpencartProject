@@ -1,0 +1,65 @@
+13:31:56.592 [main] INFO  TestCases.AccountRegistrationTest - Starting verify_account_registration
+13:31:56.754 [main] INFO  TestCases.AccountRegistrationTest - Clicked on MyAccount
+13:31:57.533 [main] INFO  TestCases.AccountRegistrationTest - Clicked on Register
+13:31:57.538 [main] INFO  TestCases.AccountRegistrationTest - Providing customer details
+13:32:00.253 [main] INFO  TestCases.AccountRegistrationTest - Finished Account Registration Test
+13:32:04.546 [main] INFO  TestCases.LoginTest - Starting Login Test
+13:32:04.670 [main] INFO  TestCases.LoginTest - Clicked on MyAccount
+13:32:05.173 [main] INFO  TestCases.LoginTest - Clicked Login
+13:32:05.338 [main] INFO  TestCases.LoginTest - Entering Email
+13:32:05.449 [main] INFO  TestCases.LoginTest - Entering Password
+13:32:06.925 [main] INFO  TestCases.LoginTest - Clicked On Login
+13:32:06.970 [main] INFO  TestCases.LoginTest - Validating If Login Was Successful
+13:32:06.970 [main] INFO  TestCases.LoginTest - Finished Login Test
+13:32:12.155 [main] INFO  TestCases.LoginTestDDT - Starting TC_003_LoginTestDDT
+13:32:12.285 [main] INFO  TestCases.LoginTestDDT - Clicked On My Account
+13:32:12.800 [main] INFO  TestCases.LoginTestDDT - Clicked On Login
+13:32:12.980 [main] INFO  TestCases.LoginTestDDT - Entered Email
+13:32:13.104 [main] INFO  TestCases.LoginTestDDT - Entered Password
+13:32:13.261 [main] INFO  TestCases.LoginTestDDT - Logged In
+13:32:14.406 [main] INFO  TestCases.LoginTestDDT - Validating Login Credentials Based On The Login Data From Excel
+13:32:15.218 [main] INFO  TestCases.LoginTestDDT - Finished TC_003_LoginTestDDT
+13:32:15.220 [main] INFO  TestCases.LoginTestDDT - Starting TC_003_LoginTestDDT
+13:32:15.347 [main] INFO  TestCases.LoginTestDDT - Clicked On My Account
+13:32:15.821 [main] INFO  TestCases.LoginTestDDT - Clicked On Login
+13:32:15.976 [main] INFO  TestCases.LoginTestDDT - Entered Email
+13:32:16.088 [main] INFO  TestCases.LoginTestDDT - Entered Password
+13:32:16.196 [main] INFO  TestCases.LoginTestDDT - Logged In
+13:32:17.555 [main] INFO  TestCases.LoginTestDDT - Validating Login Credentials Based On The Login Data From Excel
+13:32:18.308 [main] INFO  TestCases.LoginTestDDT - Finished TC_003_LoginTestDDT
+13:32:18.310 [main] INFO  TestCases.LoginTestDDT - Starting TC_003_LoginTestDDT
+13:32:18.433 [main] INFO  TestCases.LoginTestDDT - Clicked On My Account
+13:32:18.918 [main] INFO  TestCases.LoginTestDDT - Clicked On Login
+13:32:19.102 [main] INFO  TestCases.LoginTestDDT - Entered Email
+13:32:19.197 [main] INFO  TestCases.LoginTestDDT - Entered Password
+13:32:20.403 [main] INFO  TestCases.LoginTestDDT - Logged In
+13:32:20.489 [main] INFO  TestCases.LoginTestDDT - Validating Login Credentials Based On The Login Data From Excel
+13:32:21.304 [main] INFO  TestCases.LoginTestDDT - Finished TC_003_LoginTestDDT
+13:32:21.306 [main] INFO  TestCases.LoginTestDDT - Starting TC_003_LoginTestDDT
+13:32:21.416 [main] INFO  TestCases.LoginTestDDT - Clicked On My Account
+13:32:21.905 [main] INFO  TestCases.LoginTestDDT - Clicked On Login
+13:32:22.082 [main] INFO  TestCases.LoginTestDDT - Entered Email
+13:32:22.194 [main] INFO  TestCases.LoginTestDDT - Entered Password
+13:32:22.894 [main] INFO  TestCases.LoginTestDDT - Logged In
+13:32:32.911 [main] INFO  TestCases.LoginTestDDT - Validating Login Credentials Based On The Login Data From Excel
+13:32:32.911 [main] INFO  TestCases.LoginTestDDT - Finished TC_003_LoginTestDDT
+13:32:32.912 [main] INFO  TestCases.LoginTestDDT - Starting TC_003_LoginTestDDT
+13:32:32.994 [main] INFO  TestCases.LoginTestDDT - Clicked On My Account
+13:32:33.904 [main] INFO  TestCases.LoginTestDDT - Clicked On Login
+13:32:34.045 [main] INFO  TestCases.LoginTestDDT - Entered Email
+13:32:34.126 [main] INFO  TestCases.LoginTestDDT - Entered Password
+13:32:34.221 [main] INFO  TestCases.LoginTestDDT - Logged In
+13:32:36.011 [main] INFO  TestCases.LoginTestDDT - Validating Login Credentials Based On The Login Data From Excel
+13:32:36.843 [main] INFO  TestCases.LoginTestDDT - Finished TC_003_LoginTestDDT
+13:32:36.846 [main] INFO  TestCases.LoginTestDDT - Starting TC_003_LoginTestDDT
+13:32:36.961 [main] INFO  TestCases.LoginTestDDT - Clicked On My Account
+13:32:37.450 [main] INFO  TestCases.LoginTestDDT - Clicked On Login
+13:32:37.537 [main] INFO  TestCases.LoginTestDDT - Entered Email
+13:32:37.632 [main] INFO  TestCases.LoginTestDDT - Entered Password
+13:32:37.773 [main] INFO  TestCases.LoginTestDDT - Logged In
+13:32:48.647 [main] INFO  TestCases.LoginTestDDT - Validating Login Credentials Based On The Login Data From Excel
+13:32:48.648 [main] INFO  TestCases.LoginTestDDT - Finished TC_003_LoginTestDDT
+13:32:52.938 [main] INFO  TestCases.ValidateSearch - Starting Validate Search Test
+13:32:53.075 [main] INFO  TestCases.ValidateSearch - Clicked On My Account
+13:32:53.574 [main] INFO  TestCases.ValidateSearch - Clicked On Login
+13:32:53.751 [main] INFO  TestCases.ValidateSearch - Entered Email
