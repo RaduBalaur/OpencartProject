@@ -60,7 +60,7 @@ public class LoginTestDDT extends BaseClass {
     }
         catch (Exception e)
         {
-            Assert.fail();
+            Assert.fail("Test failed due to exception: " + e.getMessage(), e);
         }
         logger.info("Finished TC_003_LoginTestDDT");
 }}

@@ -10,7 +10,7 @@ public class ProductsPage extends BasePage {
         super(driver);
     }
 
-    @FindBy(xpath = "//img[@title='iMac']")
+    @FindBy(className="img-responsive")
     WebElement selected_product;
     @FindBy(linkText = "iMac")
     WebElement product_link;

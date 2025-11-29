@@ -43,7 +43,7 @@ public class ExtentReportManager implements ITestListener {
         extent.setSystemInfo("Application", "opencart");
         extent.setSystemInfo("Module", "Admin");
         extent.setSystemInfo("Sub Module", "Customers");
-        extent.setSystemInfo("User Name", System.getProperty("user.name"));
+        extent.setSystemInfo("User Name", "Radu");
         extent.setSystemInfo("Environment", "QA");
 
         String os = testContext.getCurrentXmlTest().getParameter("os");

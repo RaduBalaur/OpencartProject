@@ -15,7 +15,7 @@ public class MyAccountPage extends BasePage {
     WebElement msgMyAccount;
     @FindBy(xpath="//a[@class='list-group-item'][normalize-space()='Logout']")
     WebElement btn_logout;
-    @FindBy(xpath="//input[@placeholder='Search']")
+    @FindBy(name="search")
     WebElement search_input;
     @FindBy(xpath="//button[@class='btn btn-default btn-lg']")
     WebElement search_btn;

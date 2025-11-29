@@ -35,7 +35,7 @@ public class LoginTest extends BaseClass {
         }
         catch (Exception e)
         {
-            Assert.fail();
+            Assert.fail("Test failed due to exception: " + e.getMessage(), e);
         }
         logger.info("Finished Login Test");
 

@@ -36,11 +36,11 @@ public class ValidateSearch extends BaseClass {
 
             ProductsPage prd = new ProductsPage(driver);
             boolean targetproduct = prd.DoesMyProductExist();
-            logger.info("Validating If Product Is Displayed");
             Assert.assertTrue(targetproduct);
+            logger.info("Validating If Product Is Displayed");
         }
         catch (Exception e) {
-            Assert.fail();
+            Assert.fail("Test failed due to exception: " + e.getMessage(), e);
         }
         logger.info("Finished Validate Search Test");
     }

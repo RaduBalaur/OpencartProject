@@ -47,7 +47,7 @@ public class AddToCartTest extends BaseClass {
             shop.IsMyProductInCart();
             logger.info("Validating If Product Is Displayed In Shopping Cart");
         } catch (Exception e) {
-            Assert.fail();
+            Assert.fail("Test failed due to exception: " + e.getMessage(), e);
         }
         logger.info("Finished Add To Cart Test");
     }
