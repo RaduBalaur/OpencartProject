@@ -1,2 +1,2 @@
-cd C:\Users\User\IdeaProjects\OpencartProject
+cd /d %~dp0
 mvn clean test
